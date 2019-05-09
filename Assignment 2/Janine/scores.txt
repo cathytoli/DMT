@@ -1,0 +1,8 @@
+Score: 0.6558520849419839
+Label to predict: click_bool
+Features used:
+['srch_id', 'visitor_hist_starrating', 'visitor_hist_adr_usd', 'prop_starrating', 'prop_review_score', 'prop_brand_bool', 'prop_location_score1', 'prop_location_score2', 'prop_log_historical_price', 'price_usd', 'promotion_flag', 'srch_destination_id', 'srch_length_of_stay', 'srch_booking_window', 'srch_adults_count', 'srch_children_count', 'srch_room_count', 'srch_saturday_night_bool', 'srch_query_affinity_score', 'orig_destination_distance', 'comp1_rate', 'comp1_inv', 'mean_prop_starrating', 'mean_prop_review_score', 'mean_prop_brand_bool', 'mean_prop_location_score1', 'mean_prop_location_score2', 'mean_prop_log_historical_price', 'cluster__0', 'cluster__1', 'cluster__2', 'cluster__3', 'cluster__4', 'cluster__5', 'diff_distance_orig']
+Parameters xgboost:
+{"objective": "rank:pairwise", "scale_pos_weight": 21.369788465117328, "eta": 0.1, "max_depth": 4, "eval_metric": "auc", "silent": 0, "colsample_bytree": 0.8}
+Number of rounds:
+120
