@@ -120,3 +120,27 @@ Parameters xgboost:
 {"objective": "reg:logistic", "scale_pos_weight": 21.369788465117328, "eta": 0.1, "max_depth": 6, "eval_metric": "auc", "silent": 0}
 Number of rounds:
 500
+Score: 0.7498267440648279
+Label to predict: click_bool
+Features used:
+['visitor_hist_starrating', 'visitor_hist_adr_usd', 'prop_starrating', 'prop_review_score', 'prop_brand_bool', 'prop_location_score1', 'prop_location_score2', 'prop_log_historical_price', 'price_usd', 'promotion_flag', 'srch_destination_id', 'srch_length_of_stay', 'srch_booking_window', 'srch_adults_count', 'srch_children_count', 'srch_room_count', 'srch_saturday_night_bool', 'srch_query_affinity_score', 'orig_destination_distance', 'comp1_rate', 'comp1_inv', 'diff_distance_orig', 'diff_price_usd']
+Parameters xgboost:
+{"objective": "reg:logistic", "scale_pos_weight": 21.369788465117328, "eta": 0.1, "max_depth": 6, "eval_metric": "auc", "silent": 0}
+Number of rounds:
+500
+Score: 0.7482335161890712
+Label to predict: booking_bool
+Features used:
+['visitor_hist_starrating', 'visitor_hist_adr_usd', 'prop_starrating', 'prop_review_score', 'prop_brand_bool', 'prop_location_score1', 'prop_location_score2', 'prop_log_historical_price', 'price_usd', 'promotion_flag', 'srch_destination_id', 'srch_length_of_stay', 'srch_booking_window', 'srch_adults_count', 'srch_children_count', 'srch_room_count', 'srch_saturday_night_bool', 'srch_query_affinity_score', 'orig_destination_distance', 'comp1_rate', 'comp1_inv', 'diff_distance_orig', 'diff_price_usd']
+Parameters xgboost:
+{"objective": "reg:logistic", "scale_pos_weight": 34.91639050361275, "eta": 0.1, "max_depth": 6, "eval_metric": "auc", "silent": 0}
+Number of rounds:
+1000
+Score: 0.7492824969490127
+Label to predict: click_bool
+Features used:
+['visitor_hist_starrating', 'visitor_hist_adr_usd', 'prop_starrating', 'prop_review_score', 'prop_brand_bool', 'prop_location_score1', 'prop_location_score2', 'prop_log_historical_price', 'price_usd', 'promotion_flag', 'srch_destination_id', 'srch_length_of_stay', 'srch_booking_window', 'srch_adults_count', 'srch_children_count', 'srch_room_count', 'srch_saturday_night_bool', 'srch_query_affinity_score', 'orig_destination_distance', 'comp1_rate', 'comp1_inv', 'diff_distance_orig', 'diff_price_usd']
+Parameters xgboost:
+{"objective": "reg:logistic", "scale_pos_weight": 21.369788465117328, "eta": 0.1, "max_depth": 6, "eval_metric": "auc", "silent": 0}
+Number of rounds:
+1000
